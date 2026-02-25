@@ -2,11 +2,12 @@
 #include   <iostream>
 using namespace std;
 int main() {
-
-    cout << "Ingrese un número: ";
-    int num;
-    cin >> num;
-    cout << "El número ingresado es: " << num << endl;
+    string sustantivo, verbo;
+    cout << "Ingrese un sustantivo: "<<endl;
+    cin >> sustantivo;
+    cout << "Ingrese un verbo: "<<endl;
+    cin >> verbo;
+    cout <<"El "<<sustantivo<<" decidio "<<verbo <<" en la luna"<< endl;
 
     return 0;
 }
